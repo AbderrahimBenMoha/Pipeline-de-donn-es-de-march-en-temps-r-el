@@ -1,0 +1,22 @@
+﻿# Environnement Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Données générées par le pipeline
+data/
+
+# Fichiers temporaires et logs
+*.log
+.sparkStaging/
+spark-warehouse/
+.ivy/
+
+# Secrets et variables d'environnement
+.env
+.streamlit/secrets.toml
+
+# Outils de développement
+.vscode/
+.idea/
+.pytest_cache/
