@@ -150,3 +150,25 @@ L'application est alors accessible sur `http://localhost:8501`.
 ## Résultats
 
 Le pipeline a été exécuté localement avec des transactions de marché reçues depuis Binance. Les données ont été enregistrées dans les trois couches Delta Lake et les indicateurs Gold ont été consultés dans le dashboard.
+
+
+## Dashboard
+
+Le dashboard permet de suivre les indicateurs issus du pipeline de données BTC/USDT : prix moyen, nombre de transactions, volume échangé et valeur estimée des échanges.
+
+### Vue générale
+
+![Vue générale du dashboard](screenshots/dashboard-overview.png)
+
+### Évolution du prix moyen
+
+![Évolution du prix moyen du BTC](screenshots/dashboard-prix.png)
+
+### Volume échangé par minute
+
+![Volume échangé par minute](screenshots/dashboard-volume.png)
+
+### Données agrégées
+
+![Tableau des indicateurs Gold](screenshots/dashboard-donnees.png)
+
